@@ -1,0 +1,57 @@
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <block type="s4d_login" id="]Qye3Px=M:s[|MCyzy5s" x="116" y="75">
+    <value name="TOKEN">
+      <shadow type="text" id="[1:9PQ5mWf9m`~;g_D@$">
+        <field name="TEXT">MTAzMjg4MjQwNzg2ODc0Nzc5Ng.GYQhSM.AmevRhzFa9ZgeBTKv-uQZJp80W5TH1KzlLqEn0</field>
+      </shadow>
+    </value>
+  </block>
+  <block type="s4d_on_connected" id="yZFoY):)Jc2DBQ;GI^g_" x="118" y="129"></block>
+  <block type="on_slash" id="/39f)FZGaj4`ld@m~C7q" x="630" y="155"></block>
+  <block type="frost_slash_register" id="Yj{shNXTT1NV+le(QJJQ" x="118" y="229">
+    <statement name="OPTIONS">
+      <block type="frost_slash_command" id="VwVno9j*dm?$xx(OjZU3">
+        <value name="NAME">
+          <shadow type="text" id="wuQAp8o}]%[}|~Kk5cyh">
+            <field name="TEXT">Help</field>
+          </shadow>
+        </value>
+        <value name="DESC">
+          <shadow type="text" id="W-m$[|O`?M#kXm[6/ur)">
+            <field name="TEXT">Brings up the bot help page</field>
+          </shadow>
+        </value>
+        <statement name="OPTIONS">
+          <block type="slash_reply" id="`@;8FT*Nzr*CFZ4T(^C.">
+            <value name="CONTENT">
+              <block type="jg_text_remake_paragraph_quotes" id="|d2@3=_QN3QyWuMI7#[H">
+                <field name="TEXT">among us</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+        <next>
+          <block type="frost_slash_command" id="Hp/LQ4iPVN_]1:HrLZ$i">
+            <value name="NAME">
+              <shadow type="text" id="Z:F,mJR_=gt-13rzY1M+">
+                <field name="TEXT"></field>
+              </shadow>
+            </value>
+            <value name="DESC">
+              <shadow type="text" id="HgN.#_w-,ZaO2{Lys?B^">
+                <field name="TEXT"></field>
+              </shadow>
+            </value>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="s4d_reply" id="EQa4LBA5xf$*{`3.uZhm" disabled="true" x="1196" y="549">
+    <value name="CONTENT">
+      <shadow type="text" id="[JDWx23F#[-7~~Bj^YXm">
+        <field name="TEXT">Hey!</field>
+      </shadow>
+    </value>
+  </block>
+</xml>
