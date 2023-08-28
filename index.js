@@ -146,6 +146,16 @@
                 ephemeral: true,
                 components: []
             });
+        } else if ((interaction.commandName) == 'AI') {
+            // true - only the person who t=did the comamnd can see it
+            //
+            // false - everyone can see it
+            //
+            await interaction.reply({
+                content: 'Message from Joe: im not coding an ai function mate.',
+                ephemeral: true,
+                components: []
+            });
         } else if ((interaction.commandName) == 'poll') {
             if (mathRandomInt(1, 5) == 1) {
                 // true - only the person who t=did the comamnd can see it
