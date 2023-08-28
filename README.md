@@ -1,5 +1,5 @@
 # Z3R0
-A Discord bot teplate with a list of starting commands to get you started
+A Discord-js bot teplate with a list of starting commands to get you started
 
 This is an upgraded version of Spotlight, mainly reworked to support slash commands and work with other new discord features.
 
