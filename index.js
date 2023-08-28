@@ -133,7 +133,7 @@
             //
             await interaction.reply({
                 content: 'Some Commands i can do are: help (brings up the help page) Ping (Pong)',
-                ephemeral: true,
+                ephemeral: false,
                 components: []
             });
         } else if ((interaction.commandName) == 'ping') {
@@ -143,7 +143,7 @@
             //
             await interaction.reply({
                 content: 'Pong',
-                ephemeral: true,
+                ephemeral: false,
                 components: []
             });
         } else if ((interaction.commandName) == 'AI') {
@@ -153,7 +153,7 @@
             //
             await interaction.reply({
                 content: 'Message from Joe: im not coding an ai function mate.',
-                ephemeral: true,
+                ephemeral: false,
                 components: []
             });
         } else if ((interaction.commandName) == 'poll') {
@@ -164,7 +164,7 @@
                 //
                 await interaction.reply({
                     content: 'Cats or Dogs?',
-                    ephemeral: true,
+                    ephemeral: false,
                     components: []
                 });
             } else if (mathRandomInt(1, 5) == 2) {
@@ -174,7 +174,7 @@
                 //
                 await interaction.reply({
                     content: 'Waffles Or Pancakes',
-                    ephemeral: true,
+                    ephemeral: false,
                     components: []
                 });
             } else if (mathRandomInt(1, 5) == 3) {
@@ -184,7 +184,7 @@
                 //
                 await interaction.reply({
                     content: 'Summer Or Winter',
-                    ephemeral: true,
+                    ephemeral: false,
                     components: []
                 });
             } else if (mathRandomInt(1, 5) == 4) {
@@ -194,7 +194,7 @@
                 //
                 await interaction.reply({
                     content: 'Hot Or Cold',
-                    ephemeral: true,
+                    ephemeral: false,
                     components: []
                 });
             } else if (mathRandomInt(1, 5) == 5) {
@@ -204,7 +204,7 @@
                 //
                 await interaction.reply({
                     content: 'On Or Off Brand',
-                    ephemeral: true,
+                    ephemeral: false,
                     components: []
                 });
             }
@@ -215,7 +215,7 @@
             //
             await interaction.reply({
                 content: 'no',
-                ephemeral: true,
+                ephemeral: false,
                 components: []
             });
         }
