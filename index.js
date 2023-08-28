@@ -132,7 +132,7 @@
             // false - everyone can see it
             //
             await interaction.reply({
-                content: 'Some Commands i can do are: help (brings up the help page) Ping (Pong)',
+                content: 'Some of the commands i can run: help (this page) ping (pong) level (shows your level) poll (brings up a poll)',
                 ephemeral: false,
                 components: []
             });
