@@ -1,8 +1,11 @@
 # Z3R0
-yet another discord bot i made.
+A Discord bot teplate with a list of starting commands to get you started
 
-The upgraded version of Spotlight. commands listed include
-/poll (a simple poll system)
-/help (brings up the help page)
-/level (a level system)
-/ping (pong)
+This is an upgraded version of Spotlight, mainly reworked to support slash commands and work with other new discord features.
+
+Some commands include but are not limited to:
+/poll
+/ping
+/help
+
+This bot is under development, watch for new fetures, and bugs.
