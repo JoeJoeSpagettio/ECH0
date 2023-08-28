@@ -9,3 +9,9 @@ Some commands include but are not limited to:
 /help
 
 This bot is under development, watch for new fetures, and bugs.
+
+**Coming soon**
+
+AI Prompts
+Level System
+Better comments for easier configuration 
