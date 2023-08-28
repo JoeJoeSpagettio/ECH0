@@ -12,6 +12,6 @@ This bot is under development, watch for new fetures, and bugs.
 
 **Coming soon**
 
-AI Prompts
-Level System
-Better comments for easier configuration 
+1. AI Prompts
+2. Level System
+3. Better comments for easier configuration 
