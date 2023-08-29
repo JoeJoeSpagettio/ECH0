@@ -257,6 +257,12 @@
         options: [
 
         ]
+    }, {
+        name: 'AI',
+        description: 'generates a new AI writing prompt',
+        options: [
+
+        ]
     }, ], {
         debug: false,
 
