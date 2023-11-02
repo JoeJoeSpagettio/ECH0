@@ -11,6 +11,8 @@ Some commands include but are not limited to:
 
 This bot is under development, watch for new fetures, and bugs.
 
+## Open issues when you encounter them please!
+
 **Coming soon**
 
 1. AI Prompts
